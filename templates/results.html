@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/styleresults.css">
+    <title>Results</title>
+  </head>
+  <body>
+      <form method = "POST">
+      <div class="container1">
+        <div class="row justify-content-center">
+            <div class="col-4">
+                <div class="shopeepic">
+                    <img src="static/shopee-logo2.svg" class="shopeelogoontop">
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="lazadapic">
+                    
+                </div>
+                <img src="static/lazada-group-vector-logo.svg" class="lazpicturee">
+            </div>
+            </div>
+      </div>
+      <div class="container">
+        <div class="row">         
+          <div class="col align-self-center">
+                <div class="Gobackbutton">
+                    <a href="/" class="Goback">Back to Search</a>
+            </div>
+          </div>
+    </div>
+  </div>
+      <div class="fixing">
+    <div class="container">
+    <!--1ST PRODUCT-->
+          <div class="row justify-content-around">
+            <div class="col-4">
+                <div class="prod1">
+                    <h1 class="texttitle">{{shopname1}}</h1>
+                    <img src="{{shopimg1}}" class="photo">
+                    <h2 class="price">{{shopprice1}}</h2>
+                    <h2 class="sellname">Seller: {{shopsell1}}</h2>
+                    <h3 class="ratingnum">{{shopratings1}} Ratings</h3>
+                </div>
+            </div>
+            <div class="col-4">
+              <div class="prod1">
+                <h1 class="texttitle">{{lazname1}}</h1>
+                <img src="{{lazimg1}}" class="photo">
+                <h2 class="price">{{lazprice1}}</h2>
+                <h2 class="sellname">Seller: {{lazsell1}}</h2>
+                <h3 class="ratingnum">{{lazratings1}}</h3>
+            </div>
+            </div>
+          </div>
+          <!--Buttons-->
+          <div class="row justify-content-around">
+            <div class="col-4">
+                <div class="shopeebutton">
+                    <a href="{{shoplink1}}" class="ReadMore">Go to Shopee</a>
+                </div>
+                </div>
+            
+            <div class="col-4">
+                <div class="lazadabutton">
+                  <a href="{{lazlink1}}" class="ReadMore2">Go to Lazada</a>
+                </div>
+            </div>
+          </div>
+ 
+        
+        <!--2ND PRODUCT-->
+        <div class="container">
+            <div class="row justify-content-around">
+              <div class="col-4">
+                  <div class="prod1"> 
+                    <h1 class="texttitle">{{shopname2}}</h1>
+                    <img src="{{shopimg2}}" class="photo">
+                    <h2 class="price">{{shopprice2}}</h2>
+                    <h2 class="sellname">Seller: {{shopsell2}}</h2>
+                    <h3 class="ratingnum">{{shopratings2}} Ratings</h3>                    
+                  </div>
+              </div>
+              <div class="col-4">
+                <div class="prod1">
+                  <h1 class="texttitle">{{lazname2}}</h1>
+                  <img src="{{lazimg2}}" class="photo">
+                  <h2 class="price">{{lazprice2}}</h2>
+                  <h2 class="sellname">Seller: {{lazsell2}}</h2>
+                  <h3 class="ratingnum">{{lazratings2}}</h3>
+              </div>
+              </div>
+            </div>
+            <!--Buttons-->
+          <div class="row justify-content-around">
+            <div class="col-4">
+                <div class="shopeebutton">
+                    <a href="{{shoplink2}}" class="ReadMore">Go to Shopee</a>
+                </div>
+                </div>
+            
+            <div class="col-4">
+                <div class="lazadabutton">
+                  <a href="{{lazlink2}}" class="ReadMore2">Go to Lazada</a>
+                </div>
+            </div>
+          </div>
+          </div>
+        <!--3RD PRODUCT-->
+        <div class="container">
+            <div class="row justify-content-around">
+              <div class="col-4">
+                <div class="prod1"> 
+                  <h1 class="texttitle">{{shopname3}}</h1>
+                  <img src="{{shopimg3}}" class="photo">
+                  <h2 class="price">{{shopprice3}}</h2>
+                  <h2 class="sellname">Seller: {{shopsell3}}</h2>
+                  <h3 class="ratingnum">{{shopratings3}} Ratings</h3>                    
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="prod1">
+                  <h1 class="texttitle">{{lazname3}}</h1>
+                  <img src="{{lazimg3}}" class="photo">
+                  <h2 class="price">{{lazprice3}}</h2>
+                  <h2 class="sellname">Seller: {{lazsell3}}</h2>
+                  <h3 class="ratingnum">{{lazratings3}}</h3>
+              </div>
+              </div>
+            </div>
+            <!--Buttons-->
+          <div class="row justify-content-around">
+            <div class="col-4">
+                <div class="shopeebutton">
+                  <a href="{{shoplink3}}" class="ReadMore">Go to Shopee</a>
+                </div>
+                </div>
+            
+            <div class="col-4">
+                <div class="lazadabutton">
+                  <a href="{{lazlink3}}" class="ReadMore2">Go to Lazada</a>
+                </div>
+            </div>
+          </div>
+          </div>
+         <!--4TH PRODUCT-->
+        <div class="container">
+            <div class="row justify-content-around">
+              <div class="col-4">
+                <div class="prod1"> 
+                  <h1 class="texttitle">{{shopname4}}</h1>
+                  <img src="{{shopimg4}}" class="photo">
+                  <h2 class="price">{{shopprice4}}</h2>
+                  <h2 class="sellname">Seller: {{shopsell4}}</h2>
+                  <h3 class="ratingnum">{{shopratings4}} Ratings</h3>                    
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="prod1">
+                  <h1 class="texttitle">{{lazname4}}</h1>
+                  <img src="{{lazimg4}}" class="photo">
+                  <h2 class="price">{{lazprice4}}</h2>
+                  <h2 class="sellname">Seller: {{lazsell4}}</h2>
+                  <h3 class="ratingnum">{{lazratings4}}</h3>
+              </div>
+              </div>
+            </div>
+            <!--Buttons-->
+          <div class="row justify-content-around">
+            <div class="col-4">
+                <div class="shopeebutton">
+                  <a href="{{shoplink4}}" class="ReadMore">Go to Shopee</a>
+                </div>
+                </div>
+            
+            <div class="col-4">
+                <div class="lazadabutton">
+                  <a href="{{lazlink4}}" class="ReadMore2">Go to Lazada</a>
+                </div>
+            </div>
+          </div>
+          </div>
+        <!--5TH PRODUCT-->
+        <div class="container">
+            <div class="row justify-content-around">
+              <div class="col-4">
+                <div class="prod1"> 
+                  <h1 class="texttitle">{{shopname5}}</h1>
+                  <img src="{{shopimg5}}" class="photo">
+                  <h2 class="price">{{shopprice5}}</h2>
+                  <h2 class="sellname">Seller: {{shopsell5}}</h2>
+                  <h3 class="ratingnum">{{shopratings5}} Ratings</h3>                    
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="prod1">
+                  <h1 class="texttitle">{{lazname5}}</h1>
+                  <img src="{{lazimg5}}" class="photo">
+                  <h2 class="price">{{lazprice5}}</h2>
+                  <h2 class="sellname">Seller: {{lazsell5}}</h2>
+                  <h3 class="ratingnum">{{lazratings5}}</h3>
+              </div>
+              </div>
+            </div>
+            <!--Buttons-->
+          <div class="row justify-content-around">
+            <div class="col-4">
+                <div class="shopeebutton">
+                  <a href="{{shoplink5}}" class="ReadMore">Go to Shopee</a>
+                </div>
+                </div>
+            
+            <div class="col-4">
+                <div class="lazadabutton">
+                  <a href="{{lazlink5}}" class="ReadMore2">Go to Lazada</a>
+                </div>
+            </div>
+          </div>
+          </div>
+          <!--6TH PRODUCT-->
+        <div class="container">
+          <div class="row justify-content-around">
+            <div class="col-4">
+              <div class="prod1"> 
+                <h1 class="texttitle">{{shopname6}}</h1>
+                <img src="{{shopimg6}}" class="photo">
+                <h2 class="price">{{shopprice6}}</h2>
+                <h2 class="sellname">Seller: {{shopsell6}}</h2>
+                <h3 class="ratingnum">{{shopratings6}} Ratings</h3>                    
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="prod1">
+                <h1 class="texttitle">{{lazname6}}</h1>
+                <img src="{{lazimg6}}" class="photo">
+                <h2 class="price">{{lazprice6}}</h2>
+                <h2 class="sellname">Seller: {{lazsell6}}</h2>
+                <h3 class="ratingnum">{{lazratings6}}</h3>
+            </div>
+            </div>
+          </div>
+          <!--Buttons-->
+        <div class="row justify-content-around">
+          <div class="col-4">
+              <div class="shopeebutton">
+                <a href="{{shoplink6}}" class="ReadMore">Go to Shopee</a>
+              </div>
+              </div>
+          
+          <div class="col-4">
+              <div class="lazadabutton">
+                <a href="{{lazlink6}}" class="ReadMore2">Go to Lazada</a>
+              </div>
+          </div>
+        </div>
+        </div>
+
+         <!--7TH PRODUCT-->
+         <div class="container">
+          <div class="row justify-content-around">
+            <div class="col-4">
+              <div class="prod1"> 
+                <h1 class="texttitle">{{shopname7}}</h1>
+                <img src="{{shopimg7}}" class="photo">
+                <h2 class="price">{{shopprice7}}</h2>
+                <h2 class="sellname">Seller: {{shopsell7}}</h2>
+                <h3 class="ratingnum">{{shopratings7}} Ratings</h3>                    
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="prod1">
+                <h1 class="texttitle">{{lazname7}}</h1>
+                <img src="{{lazimg6}}" class="photo">
+                <h2 class="price">{{lazprice7}}</h2>
+                <h2 class="sellname">Seller: {{lazsell7}}</h2>
+                <h3 class="ratingnum">{{lazratings7}}</h3>
+            </div>
+            </div>
+          </div>
+          <!--Buttons-->
+        <div class="row justify-content-around">
+          <div class="col-4">
+              <div class="shopeebutton">
+                <a href="{{shoplink7}}" class="ReadMore">Go to Shopee</a>
+              </div>
+              </div>
+          
+          <div class="col-4">
+              <div class="lazadabutton">
+                <a href="{{lazlink7}}" class="ReadMore2">Go to Lazada</a>
+              </div>
+          </div>
+        </div>
+        </div>
+
+         <!--8TH PRODUCT-->
+         <div class="container">
+          <div class="row justify-content-around">
+            <div class="col-4">
+              <div class="prod1"> 
+                <h1 class="texttitle">{{shopname8}}</h1>
+                <img src="{{shopimg8}}" class="photo">
+                <h2 class="price">{{shopprice8}}</h2>
+                <h2 class="sellname">Seller: {{shopsell8}}</h2>
+                <h3 class="ratingnum">{{shopratings8}} Ratings</h3>                    
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="prod1">
+                <h1 class="texttitle">{{lazname8}}</h1>
+                <img src="{{lazimg8}}" class="photo">
+                <h2 class="price">{{lazprice8}}</h2>
+                <h2 class="sellname">Seller: {{lazsell8}}</h2>
+                <h3 class="ratingnum">{{lazratings8}}</h3>
+            </div>
+            </div>
+          </div>
+          <!--Buttons-->
+        <div class="row justify-content-around">
+          <div class="col-4">
+              <div class="shopeebutton">
+                <a href="{{shoplink8}}" class="ReadMore">Go to Shopee</a>
+              </div>
+              </div>
+          
+          <div class="col-4">
+              <div class="lazadabutton">
+                <a href="{{lazlink8}}" class="ReadMore2">Go to Lazada</a>
+              </div>
+          </div>
+        </div>
+        </div>
+
+ <!--9TH PRODUCT-->
+ <div class="container">
+  <div class="row justify-content-around">
+    <div class="col-4">
+      <div class="prod1"> 
+        <h1 class="texttitle">{{shopname9}}</h1>
+        <img src="{{shopimg9}}" class="photo">
+        <h2 class="price">{{shopprice9}}</h2>
+        <h2 class="sellname">Seller: {{shopsell9}}</h2>
+        <h3 class="ratingnum">{{shopratings9}} Ratings</h3>                    
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="prod1">
+        <h1 class="texttitle">{{lazname9}}</h1>
+        <img src="{{lazimg9}}" class="photo">
+        <h2 class="price">{{lazprice9}}</h2>
+        <h2 class="sellname">Seller: {{lazsell9}}/h2>
+        <h3 class="ratingnum">{{lazratings9}}</h3>
+    </div>
+    </div>
+  </div>
+  <!--Buttons-->
+<div class="row justify-content-around">
+  <div class="col-4">
+      <div class="shopeebutton">
+        <a href="{{shoplink9}}" class="ReadMore">Go to Shopee</a>
+      </div>
+      </div>
+  
+  <div class="col-4">
+      <div class="lazadabutton">
+        <a href="{{lazlink9}}" class="ReadMore2">Go to Lazada</a>
+      </div>
+  </div>
+</div>
+</div>
+
+ <!--10TH PRODUCT-->
+ <div class="container">
+  <div class="row justify-content-around">
+    <div class="col-4">
+      <div class="prod1"> 
+        <h1 class="texttitle">{{shopname10}}</h1>
+        <img src="{{shopimg10}}" class="photo">
+        <h2 class="price">{{shopprice10}}</h2>
+        <h2 class="sellname">Seller: {{shopsell10}}</h2>
+        <h3 class="ratingnum">{{shopratings10}} Ratings</h3>                    
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="prod1">
+        <h1 class="texttitle">{{lazname10}}</h1>
+        <img src="{{lazimg10}}" class="photo">
+        <h2 class="price">{{lazprice10}}</h2>
+        <h2 class="sellname">Seller: {{lazsell10}}</h2>
+        <h3 class="ratingnum">{{lazratings10}}</h3>
+    </div>
+    </div>
+  </div>
+  <!--Buttons-->
+<div class="row justify-content-around">
+  <div class="col-4">
+      <div class="shopeebutton">
+        <a href="{{shoplink10}}" class="ReadMore">Go to Shopee</a>
+      </div>
+      </div>
+  
+  <div class="col-4">
+      <div class="lazadabutton">
+        <a href="{{lazlink10}}" class="ReadMore2">Go to Lazada</a>
+      </div>
+  </div>
+</div>
+</div>
+
+        </div>
+      </div>
+        </form>
+  </body>
+</html>

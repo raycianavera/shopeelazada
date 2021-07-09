@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body{
+    background-color: cornsilk;
+}
+
+.shopeepic {
+    background-color: #FF725C;
+    padding: 5rem;
+    margin-top: -13rem;
+    margin-left: -12rem;
+    border-radius: 20px;
+}
+.lazpicturee {
+    margin-top: -19.3rem;
+    margin-left: 7rem;
+}
+.lazadapic {
+    background-color: #313A74;
+    padding: 5rem;
+    margin-top: -11rem;
+    padding-left: 37rem;
+    border-radius: 20px;
+    padding-bottom: 9.3rem;
+}
+.shopeelogoontop {
+    height: 100px;
+    margin-left: 7rem;
+}
+
+.container1{
+    border-radius: 20px;
+
+}
+.texttitle {
+    font-family: 'Anton', sans-serif;
+    color: #323a74;
+    text-align: right;
+    padding: 1rem;
+    font-size: 20px;
+}
+
+.price {
+    font-family: 'Anton', sans-serif;
+    color: #323a74;
+    text-align: right;
+    font-size: 25px;
+    padding: 1rem;
+    margin-top: -6rem;
+}
+.ratingnum {
+    font-family: 'Anton', sans-serif;
+    color: #323a74;
+    text-align: left;
+    font-size: 20px;
+    padding: 1rem;
+    margin-top: -2rem;
+}
+.prod1 {
+    background-color: white;
+    padding: 0rem;
+    margin: -4rem;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px;
+    width: 554px;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+    padding-top: 10rem;
+}
+
+.photo {
+    vertical-align: middle;
+    height: 500px;
+    padding: 6rem;
+    margin-top: -6rem;
+}
+
+.ReadMore{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #FF725C;
+    color: white;
+    display: inline-block;
+    padding: 0.75rem 5rem;
+    border-radius: 20px;
+}
+.ReadMore2{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #313A74;
+    color: white;
+    display: inline-block;
+    padding: 0.75rem 5rem;
+    border-radius: 20px;
+}
+
+
+.shopeebutton {
+    margin-top: -4rem;
+    margin-left: 5rem;
+}
+
+
+.lazadabutton {
+    margin-top: -4rem;
+    margin-left: 5rem;
+}
+
+.fixing {
+    margin-top: -10rem;
+}
+
+.Goback{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #b81f34;
+    border: 3px solid #830100;
+    color: white;
+    display: inline-block;
+    padding: 0.75rem 5rem;
+    border-radius: 20px;
+}
+
+.Gobackbutton {
+    margin-top: -10rem;
+    margin-left: 42%;
+}
+
+.sellname {
+    font-family: 'Anton', sans-serif;
+    color: #323a74;
+    text-align: right;
+    font-size: 18px;
+    padding: 1rem;
+    margin-top: -2rem;
+}

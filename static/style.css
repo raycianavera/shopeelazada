@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cornsilk;
+}
+
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.shoplog {
+    justify-content: space-evenly;
+    max-width: 430px;
+    display: inline-block;
+    animation: movedown 1.8s linear 1;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+
+}
+.shoplog1 {
+    justify-content: space-evenly;
+    max-width: 230px;
+    display: inline-block;
+    margin-top: 200px;
+}
+
+.lazlog {
+    justify-content: space-evenly;
+    max-width: 430px;
+    display: inline-block;
+    animation: moveup 1.8s linear 1;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+
+}
+.lazlog1 {
+    justify-content: space-evenly;
+    max-width: 204px;
+    display: inline-block;
+    margin-bottom: -135px;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: zoomin 1s ease-in-out 1;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+
+}
+
+.box {
+    height: 100vh;
+    width: 100vw;
+    background-color: #FF725C;
+    animation: zoomin 0.5s ease-in-out 1;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    margin-left: -1536px;
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+}
+
+
+.boxinside{
+    height: 100%;
+    width: 100%;
+    background-color: cornsilk;
+    border-radius: 20px;
+    border: 4px solid #323a74;
+    animation: zoomin 0.5s ease-in-out 1;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+
+}
+
+.main{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+input {
+    border: 3px solid #323a74;
+    height: 40px;
+    width: 500px;
+    border-radius: 50px;
+    padding: 0px 10px;
+    animation: moveright 1s ease-in-out 1;
+    animation-delay: 4s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+.footer {
+    height: 10%;
+    width: 80%;
+    background-color: #b81f34;
+    border: 3px solid #830100;
+    margin-left: 160px;
+    margin-top: 311px;
+
+
+}
+.mascot {
+    max-width: 204px;
+    display: inline-block;
+    margin-left: 160px;
+    margin-top: -210px;
+}
+.monkey {
+    max-width: 204px;
+    display: inline-block;
+    margin-left: -461px;
+    margin-top: -370px;
+    
+}
+
+.shopanimal {
+    max-width: 204px;
+    display: inline-block;
+    margin-left: 160px;
+    margin-top: 242px;
+    animation: moveright 1s ease-in-out 1;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+
+.bear {
+    max-width: 204px;
+    display: inline-block;
+    margin-left: 641px;
+    animation: moveleft 1s ease-in-out 1;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+
+.text {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 310px;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 400;
+}
+/*ANIMATIONS*/
+
+@keyframes zoomin {
+    0%{
+        transform: scale(0.5);
+        visibility: visible;
+    }
+    100%{
+        transform: scale(1);
+        visibility: visible;
+    }
+}
+@keyframes moveup {
+    0%{
+        transform: translateY(100px);
+        visibility: visible;
+    }
+    100%{
+        transform: translateY(0);
+        visibility: visible;
+    }
+}
+
+@keyframes movedown {
+    0%{
+        transform: translateY(-100px);
+        visibility: visible;
+    }
+    100%{
+        transform: translateY(0);
+        visibility: visible;
+    }
+}
+
+@keyframes moveright {
+    0%{
+        transform: translateX(-50px);
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(0);
+        visibility: visible;
+    }
+    
+}
+@keyframes moveleft {
+    0%{
+        transform: translateX(50px);
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(0px);
+        visibility: visible;
+    }
+}
